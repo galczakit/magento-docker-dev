@@ -1,0 +1,8 @@
+#!/bin/bash
+[ -z "$1" ] && echo "Please specify a CLI command (ex. ls)" && exit
+
+ENV_FILE=${BASH_SOURCE%/*}/../../.env
+
+PHP_CONTAINER_NAME=$(grep PHP_CONTAINER_NAME $ENV_FILE | cut -d '=' -f2)
+
+docker exec -i -u owner php "$@"

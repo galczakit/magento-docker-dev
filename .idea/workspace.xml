@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6142ed18-fd60-4911-838d-5601228783c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/composer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/magento" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/xdebug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/log/application_access.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/log/application_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/bin/cli" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cli" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/bin/composer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/bin/magento" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/bin/xdebug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/log/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/log/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/log/application_access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/log/application_error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/log/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/nginx_magento.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/nginx_magento.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/nginx/sites-enabled/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/sites-enabled/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/php-fpm/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/php-fpm/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/varnish/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/varnish/default.vcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/varnish/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/varnish/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testgitlab.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pWFWWQ8uLSMbP2oz1yxpXBNktH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6142ed18-fd60-4911-838d-5601228783c2" name="Default Changelist" comment="" />
+      <created>1615290970307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615290970307</updated>
+      <workItem from="1615290971591" duration="3104000" />
+      <workItem from="1615463127748" duration="614000" />
+      <workItem from="1616496121219" duration="2140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1094" y="300" width="424" height="520" key="FileChooserDialogImpl" timestamp="1615292736336">
+      <screen x="72" y="27" width="2488" height="1053" />
+    </state>
+    <state x="1094" y="300" width="424" height="520" key="FileChooserDialogImpl/72.27.2488.1053@72.27.2488.1053" timestamp="1615292736336" />
+    <state x="1007" y="292" width="618" height="522" key="find.popup" timestamp="1616497610972">
+      <screen x="72" y="27" width="2488" height="1053" />
+    </state>
+    <state x="1007" y="292" width="618" height="522" key="find.popup/72.27.2488.1053@72.27.2488.1053" timestamp="1616497610972" />
+  </component>
+</project>

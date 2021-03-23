@@ -1,0 +1,61 @@
+version: '3.5'
+
+services:
+  nginx:
+    image: galczakit/nginx:1.15
+    volumes:
+      - ./src:/var/www/html
+      - docker/nginx/sites-enabled/:/etc/nginx/conf.d
+      - docker/nginx/nginx_magento.conf/:/etc/nginx/nginx_magento.conf
+      - docker/nginx/log:/var/log/nginx
+    depends_on:
+      - php
+    networks:
+      magento_network:
+        ipv4_address: 172.16.1.10
+
+  php:
+    image: galczakit/php-dev:7.2
+    depends_on:
+      - db
+    volumes:
+      - ./src:/var/www/html
+    networks:
+      magento_network:
+        ipv4_address: 172.16.1.11
+
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=magento
+      - MYSQL_DATABASE=magento
+      - MYSQL_USER=magento
+      - MYSQL_PASSWORD=magento
+    networks:
+      magento_network:
+        ipv4_address: 172.16.1.12
+
+  redis:
+    image: redis
+    networks:
+      magento_network:
+        ipv4_address: 172.16.1.13
+
+  elasticsearch:
+    image: elasticsearch:6.8.2
+    environment:
+      ES_JAVA_OPTS: '-Xms256m -Xmx256m'
+      network.bind_host: 0.0.0.0
+      network.host: 0.0.0.0
+      discovery.type: single-node
+    networks:
+      magento_network:
+        ipv4_address: 172.16.1.14
+
+networks:
+  magento_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.1.0/24
+
