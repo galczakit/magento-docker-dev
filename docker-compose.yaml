@@ -5,9 +5,9 @@ services:
     image: galczakit/nginx:1.15
     volumes:
       - ./src:/var/www/html
-      - docker/nginx/sites-enabled/:/etc/nginx/conf.d
-      - docker/nginx/nginx_magento.conf/:/etc/nginx/nginx_magento.conf
-      - docker/nginx/log:/var/log/nginx
+      - ./docker/nginx/sites-enabled/application.conf:/etc/nginx/conf.d/application.conf
+      - ./docker/nginx/nginx_magento.conf:/etc/nginx/application_nginx.conf
+      - ./docker/nginx/log:/var/log/nginx
     depends_on:
       - php
     networks:
@@ -15,11 +15,13 @@ services:
         ipv4_address: 172.16.1.10
 
   php:
-    image: galczakit/php-dev:7.2
+    image: galczakit/php-dev:7.4
     depends_on:
       - db
     volumes:
       - ./src:/var/www/html
+      - ~/.composer:/home/owner/.composer
+      - ~/.ssh:/home/owner/.ssh
     networks:
       magento_network:
         ipv4_address: 172.16.1.11
